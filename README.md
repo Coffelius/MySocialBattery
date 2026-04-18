@@ -1,5 +1,8 @@
 # My Social Battery
 
+[![CI](https://github.com/Coffelius/MySocialBattery/actions/workflows/ci.yml/badge.svg)](https://github.com/Coffelius/MySocialBattery/actions/workflows/ci.yml)
+[![Latest release](https://img.shields.io/github/v/release/Coffelius/MySocialBattery)](https://github.com/Coffelius/MySocialBattery/releases/latest)
+
 <p align="center">
   <img src="docs/hero.png" alt="My Social Battery — the enamel pin that inspired this app" width="420" />
 </p>
