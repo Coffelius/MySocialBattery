@@ -1,4 +1,17 @@
 <resources>
     <string name="app_name">My Social Battery</string>
     <string name="widget_title">MY SOCIAL BATTERY</string>
+    <string name="widget_receiver_label">My Social Battery</string>
+    <string name="helper_drag">Drag the bolt to set your social battery</string>
+    <string name="helper_add_widget">Add the widget to your home screen for quick access</string>
+
+    <string-array name="mood_labels">
+        <item>Completely Drained</item>
+        <item>Very Low</item>
+        <item>Low Energy</item>
+        <item>Neutral</item>
+        <item>Feeling Okay</item>
+        <item>Feeling Good</item>
+        <item>Fully Charged!</item>
+    </string-array>
 </resources>

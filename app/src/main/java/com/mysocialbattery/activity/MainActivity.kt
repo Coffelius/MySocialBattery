@@ -12,19 +12,13 @@ import com.mysocialbattery.widget.SocialBatteryWidgetProvider
 
 class MainActivity : AppCompatActivity() {
 
-    private val moodLabels = arrayOf(
-        "Completely Drained",
-        "Very Low",
-        "Low Energy",
-        "Neutral",
-        "Feeling Okay",
-        "Feeling Good",
-        "Fully Charged!"
-    )
+    private lateinit var moodLabels: Array<String>
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        moodLabels = resources.getStringArray(R.array.mood_labels)
 
         val gaugeView = findViewById<SocialBatteryGaugeView>(R.id.gauge_view)
         val moodLabel = findViewById<TextView>(R.id.mood_label)

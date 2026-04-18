@@ -49,7 +49,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
-        android:text="Drag the bolt to set your social battery"
+        android:text="@string/helper_drag"
         android:textColor="@color/neu_shadow_dark"
         android:textSize="13sp"
         android:gravity="start" />
@@ -58,7 +58,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="Add the widget to your home screen for quick access"
+        android:text="@string/helper_add_widget"
         android:textColor="@color/neu_shadow_dark"
         android:textSize="13sp"
         android:gravity="start" />

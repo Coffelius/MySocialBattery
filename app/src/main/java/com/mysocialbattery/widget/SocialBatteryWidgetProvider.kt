@@ -125,7 +125,7 @@ class SocialBatteryWidgetProvider : AppWidgetProvider() {
             textAlign = Paint.Align.CENTER
             letterSpacing = 0.12f
         }
-        canvas.drawText("MY SOCIAL BATTERY", w / 2f, h * 0.18f, titlePaint)
+        canvas.drawText(context.getString(R.string.widget_title), w / 2f, h * 0.18f, titlePaint)
 
         // --- Colored zones with faces ---
         val innerLeft = padding + w * 0.03f
