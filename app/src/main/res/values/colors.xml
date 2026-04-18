@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="mood_7">#00897B</color>
+
+    <!-- Neumorphic palette -->
+    <color name="neu_background">#EDE8E0</color>
+    <color name="neu_highlight">#FAFAF6</color>
+    <color name="neu_shadow">#C5C0B8</color>
+    <color name="neu_shadow_dark">#A8A39B</color>
+    <color name="neu_border">#D6D1C9</color>
+
+    <color name="title_text">#5D5549</color>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>
