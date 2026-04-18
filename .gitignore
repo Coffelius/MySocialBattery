@@ -29,8 +29,8 @@ captures/
 .DS_Store
 Thumbs.db
 
-# Local screenshots (not part of source)
-Screenshot*.png
+# Local screenshots at repo root (not part of source; committed images live in docs/)
+/Screenshot*.png
 
 # Logs
 *.log

@@ -1,8 +1,12 @@
 # My Social Battery
 
+<p align="center">
+  <img src="docs/hero.png" alt="My Social Battery — the enamel pin that inspired this app" width="420" />
+</p>
+
 A minimal Android home-screen widget for tracking your social battery across seven moods, from "Completely Drained" to "Fully Charged!". Drag the bolt to update; the widget mirrors your current state.
 
-The gauge is rendered entirely on `Canvas` (neumorphic styling, no external assets).
+The gauge is rendered entirely on `Canvas` (neumorphic styling, no external assets), inspired by the enamel pin pictured above.
 
 ## Requirements
 
