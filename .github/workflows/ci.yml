@@ -20,6 +20,21 @@ jobs:
 
       - name: Set up Gradle
         uses: gradle/actions/setup-gradle@v4
+        with:
+          cache-read-only: false
+
+      - name: Warm up Gradle wrapper
+        run: |
+          set -e
+          for attempt in 1 2 3; do
+            if ./gradlew --version; then
+              exit 0
+            fi
+            echo "Gradle wrapper download failed (attempt $attempt). Retrying in 20s..."
+            sleep 20
+          done
+          echo "Gradle wrapper download failed after 3 attempts." >&2
+          exit 1
 
       - name: Build debug APK
         run: ./gradlew assembleDebug
